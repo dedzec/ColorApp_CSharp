@@ -1,0 +1,16 @@
+C:\Users\Dedzec\Documents\ProjectsVS\ColorApp\ColorApp\bin\Release\net6.0-windows\ColorApp.exe
+C:\Users\Dedzec\Documents\ProjectsVS\ColorApp\ColorApp\bin\Release\net6.0-windows\ColorApp.deps.json
+C:\Users\Dedzec\Documents\ProjectsVS\ColorApp\ColorApp\bin\Release\net6.0-windows\ColorApp.runtimeconfig.json
+C:\Users\Dedzec\Documents\ProjectsVS\ColorApp\ColorApp\bin\Release\net6.0-windows\ColorApp.dll
+C:\Users\Dedzec\Documents\ProjectsVS\ColorApp\ColorApp\bin\Release\net6.0-windows\ColorApp.pdb
+C:\Users\Dedzec\Documents\ProjectsVS\ColorApp\ColorApp\obj\Release\net6.0-windows\ColorApp.Form1.resources
+C:\Users\Dedzec\Documents\ProjectsVS\ColorApp\ColorApp\obj\Release\net6.0-windows\ColorApp.csproj.GenerateResource.cache
+C:\Users\Dedzec\Documents\ProjectsVS\ColorApp\ColorApp\obj\Release\net6.0-windows\ColorApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dedzec\Documents\ProjectsVS\ColorApp\ColorApp\obj\Release\net6.0-windows\ColorApp.AssemblyInfoInputs.cache
+C:\Users\Dedzec\Documents\ProjectsVS\ColorApp\ColorApp\obj\Release\net6.0-windows\ColorApp.AssemblyInfo.cs
+C:\Users\Dedzec\Documents\ProjectsVS\ColorApp\ColorApp\obj\Release\net6.0-windows\ColorApp.csproj.CoreCompileInputs.cache
+C:\Users\Dedzec\Documents\ProjectsVS\ColorApp\ColorApp\obj\Release\net6.0-windows\ColorApp.dll
+C:\Users\Dedzec\Documents\ProjectsVS\ColorApp\ColorApp\obj\Release\net6.0-windows\refint\ColorApp.dll
+C:\Users\Dedzec\Documents\ProjectsVS\ColorApp\ColorApp\obj\Release\net6.0-windows\ColorApp.pdb
+C:\Users\Dedzec\Documents\ProjectsVS\ColorApp\ColorApp\obj\Release\net6.0-windows\ColorApp.genruntimeconfig.cache
+C:\Users\Dedzec\Documents\ProjectsVS\ColorApp\ColorApp\obj\Release\net6.0-windows\ref\ColorApp.dll
