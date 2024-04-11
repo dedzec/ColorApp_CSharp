@@ -40,18 +40,18 @@
             label1.AutoSize = true;
             label1.Location = new Point(57, 27);
             label1.Name = "label1";
-            label1.Size = new Size(36, 15);
+            label1.Size = new Size(26, 15);
             label1.TabIndex = 0;
-            label1.Text = "Color";
+            label1.Text = "Cor";
             // 
             // label2
             // 
             label2.AutoSize = true;
             label2.Location = new Point(12, 124);
             label2.Name = "label2";
-            label2.Size = new Size(137, 15);
+            label2.Size = new Size(124, 15);
             label2.TabIndex = 1;
-            label2.Text = "Select color from  screen";
+            label2.Text = "Selecione a cor da tela";
             // 
             // textBox1
             // 
@@ -66,7 +66,7 @@
             button1.Name = "button1";
             button1.Size = new Size(137, 53);
             button1.TabIndex = 3;
-            button1.Text = "Hold mouse down";
+            button1.Text = "Mantenha o mouse pressionado";
             button1.UseVisualStyleBackColor = true;
             button1.MouseDown += button1_MouseDown;
             button1.MouseUp += button1_MouseUp;

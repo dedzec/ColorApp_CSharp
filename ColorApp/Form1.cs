@@ -55,5 +55,6 @@ namespace ColorApp
             buttonPressed = false;
             Cursor = Cursors.Default;
         }
+
     }
 }
