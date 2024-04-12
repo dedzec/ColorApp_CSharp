@@ -14,3 +14,5 @@ C:\Users\Dedzec\Documents\ProjectsVS\ColorApp\ColorApp\obj\Debug\net6.0-windows\
 C:\Users\Dedzec\Documents\ProjectsVS\ColorApp\ColorApp\obj\Debug\net6.0-windows\ColorApp.pdb
 C:\Users\Dedzec\Documents\ProjectsVS\ColorApp\ColorApp\obj\Debug\net6.0-windows\ColorApp.genruntimeconfig.cache
 C:\Users\Dedzec\Documents\ProjectsVS\ColorApp\ColorApp\obj\Debug\net6.0-windows\ref\ColorApp.dll
+C:\Users\Dedzec\Documents\ProjectsVS\ColorApp\ColorApp\obj\Debug\net6.0-windows\ColorApp.g.resources
+C:\Users\Dedzec\Documents\ProjectsVS\ColorApp\ColorApp\obj\Debug\net6.0-windows\ColorApp.Properties.Resources.resources

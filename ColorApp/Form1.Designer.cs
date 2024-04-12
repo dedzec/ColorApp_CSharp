@@ -7,19 +7,6 @@
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
-        /// <summary>
-        ///  Clean up any resources being used.
-        /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
-        protected override void Dispose(bool disposing)
-        {
-            if (disposing && (components != null))
-            {
-                components.Dispose();
-            }
-            base.Dispose(disposing);
-        }
-
         #region Windows Form Designer generated code
 
         /// <summary>
@@ -33,6 +20,7 @@
             textBox1 = new TextBox();
             button1 = new Button();
             panel1 = new Panel();
+            textBox2 = new TextBox();
             SuspendLayout();
             // 
             // label1
@@ -55,9 +43,9 @@
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(27, 54);
+            textBox1.Location = new Point(12, 50);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(100, 23);
+            textBox1.Size = new Size(137, 23);
             textBox1.TabIndex = 2;
             // 
             // button1
@@ -78,11 +66,19 @@
             panel1.Size = new Size(139, 197);
             panel1.TabIndex = 4;
             // 
+            // textBox2
+            // 
+            textBox2.Location = new Point(12, 87);
+            textBox2.Name = "textBox2";
+            textBox2.Size = new Size(137, 23);
+            textBox2.TabIndex = 5;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(321, 233);
+            Controls.Add(textBox2);
             Controls.Add(panel1);
             Controls.Add(button1);
             Controls.Add(textBox1);
@@ -102,5 +98,6 @@
         private TextBox textBox1;
         private Button button1;
         private Panel panel1;
+        private TextBox textBox2;
     }
 }
