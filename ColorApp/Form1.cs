@@ -38,12 +38,52 @@ namespace ColorApp
                 if (buttonPressed)
                 {
                     Point cursorPosition = Cursor.Position;
+
+                    // Exibir os valores de X e Y no textBox1
+                    textBox1.Text = $"{cursorPosition.X}, {cursorPosition.Y}";
+
                     Color selectedColor = GetColorAt(cursorPosition);
                     panel1.BackColor = selectedColor;
+
+                    // Exibir os valores de HEX no textBox3
                     string hexValeu = ColorTranslator.ToHtml(selectedColor);
-                    textBox1.Text = hexValeu;
-                    string rbgValeu = $"R:{selectedColor.R}, G:{selectedColor.G}, B:{selectedColor.B}";
+                    textBox3.Text = hexValeu;
+
+                    // Exibir os valores de RGB no textBox2
+                    string rbgValeu = $"{selectedColor.R}, {selectedColor.G}, {selectedColor.B}";
                     textBox2.Text = rbgValeu;
+
+                    // Calcular os valores de HSB
+                    float hue = selectedColor.GetHue();
+                    float saturation = selectedColor.GetSaturation();
+                    float brightness = selectedColor.GetBrightness();
+
+                    // Formatar os valores de HSB com duas casas decimais
+                    string formattedHue = hue.ToString("F2");
+                    string formattedSaturation = saturation.ToString("F2");
+                    string formattedBrightness = brightness.ToString("F2");
+
+                    // Exibir os valores de HSB no textBox4
+                    textBox4.Text = $"{formattedHue}, {formattedSaturation}, {formattedBrightness}";
+
+                    // Converter a cor para CMYK
+                    float cyan = 1 - (selectedColor.R / 255f);
+                    float magenta = 1 - (selectedColor.G / 255f);
+                    float yellow = 1 - (selectedColor.B / 255f);
+
+                    float black = Math.Min(cyan, Math.Min(magenta, yellow));
+                    cyan = (cyan - black) / (1 - black);
+                    magenta = (magenta - black) / (1 - black);
+                    yellow = (yellow - black) / (1 - black);
+
+                    // Arredondar os valores de CMYK para o número inteiro mais próximo
+                    int roundedCyan = (int)Math.Round(cyan * 100);
+                    int roundedMagenta = (int)Math.Round(magenta * 100);
+                    int roundedYellow = (int)Math.Round(yellow * 100);
+                    int roundedBlack = (int)Math.Round(black * 100);
+
+                    // Exibir os valores de CMYK no textBox5
+                    textBox5.Text = $"{roundedCyan}, {roundedMagenta}, {roundedYellow}, {roundedBlack}";
                 }
             }
         }
