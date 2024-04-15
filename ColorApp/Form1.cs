@@ -8,6 +8,13 @@ namespace ColorApp
         public Form1()
         {
             InitializeComponent();
+
+            this.Width = 338;
+            this.Height = 316;
+            // Define o estilo do formulário para que não seja redimensionável
+            this.FormBorderStyle = FormBorderStyle.FixedSingle; // Fixa a borda do formulário
+            this.MaximizeBox = false; // Desativa o botão de maximizar
+
             try
             {
                 trayIcon = new NotifyIcon()
